@@ -3,7 +3,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route('/upload')
+@app.route('/')
 def upload_file():
    return "Hi"
 if __name__ == '__main__':
