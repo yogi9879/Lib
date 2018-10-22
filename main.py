@@ -1,9 +1,8 @@
 from flask import Flask, render_template
-import adal
-import flask
-import uuid
-import requests
-import config
+
+#import flask
+#import requests
+#import config
 #import numpy as np
 
 app = Flask(__name__)
