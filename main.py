@@ -8,6 +8,6 @@ def upload_file():
    return "Hi"
 @app.route('/upload')
 def upload_file1():
-   return render_template('upload.html')
+   return "yoyo"                    #render_template('upload.html')
 if __name__ == '__main__':
    app.run()
